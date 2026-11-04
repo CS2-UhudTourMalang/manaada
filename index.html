@@ -1,0 +1,265 @@
+<!doctype html>
+<html lang="id">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="theme-color" content="#f6f7f3" />
+    <meta name="description" content="Bandingkan paket umroh dari berbagai travel dalam satu tempat. Atur tanggal, durasi, penerbangan, dan hotel sesuai kebutuhan." />
+    <title>UmrohPas — Bandingkan perjalanan menuju Baitullah</title>
+    <link rel="stylesheet" href="./styles.css" />
+  </head>
+  <body>
+    <div class="announcement-bar">
+      <span class="announcement-sparkle" aria-hidden="true">✳</span>
+      <span>Rencanakan perjalanan ibadah dengan lebih tenang.</span>
+      <a href="#cara-kerja">Kenali UmrohPas <span aria-hidden="true">↗</span></a>
+    </div>
+
+    <header class="site-header">
+      <a class="brand" href="#top" aria-label="UmrohPas, beranda">
+        <span class="brand-symbol" aria-hidden="true">
+          <svg viewBox="0 0 42 42" fill="none">
+            <path d="M21 4.5c-8.55 0-15.5 6.94-15.5 15.5S12.45 35.5 21 35.5c3.1 0 5.98-.91 8.4-2.48A12.72 12.72 0 0 1 14.7 14.4 12.68 12.68 0 0 1 24.8 7.6 15.4 15.4 0 0 0 21 4.5Z" fill="currentColor" />
+            <path d="m30.3 7 .9 2.63 2.63.9-2.63.9-.9 2.63-.9-2.63-2.63-.9 2.63-.9.9-2.63Z" fill="#C5E879" />
+            <path d="M20.8 21.3h12.6v11.4H20.8V21.3Z" fill="#F6F7F3" fill-opacity=".2" stroke="currentColor" stroke-width="1.4" />
+            <path d="M20.8 24.3h12.6M26.8 21.3v11.4" stroke="currentColor" stroke-width="1.1" />
+          </svg>
+        </span>
+        <span class="brand-wordmark">umroh<span>pas</span><small>MARKETPLACE PERJALANAN</small></span>
+      </a>
+
+      <nav class="main-nav" aria-label="Navigasi utama">
+        <a class="nav-link active" href="#search-section">Cari paket</a>
+        <a class="nav-link" href="#cara-kerja">Cara kerja</a>
+        <a class="nav-link" href="#footer">Tentang kami</a>
+      </nav>
+
+      <div class="header-actions">
+        <a class="help-link" href="#footer"><span class="help-icon" aria-hidden="true">?</span><span>Bantuan</span></a>
+        <button class="account-button" type="button" aria-label="Akun">
+          <svg viewBox="0 0 20 20" aria-hidden="true"><circle cx="10" cy="6.2" r="3.1" /><path d="M3.4 17c.35-3.1 2.9-5.2 6.6-5.2s6.25 2.1 6.6 5.2" /></svg>
+          <span>Masuk</span>
+        </button>
+      </div>
+    </header>
+
+    <main id="top">
+      <div class="page-container">
+        <section class="hero-card" aria-labelledby="hero-title">
+          <div class="hero-copy">
+            <div class="eyebrow-pill"><span class="eyebrow-dot"></span> Teman perjalanan ibadah Anda</div>
+            <h1 id="hero-title">Satu tujuan suci.<br /><span>Semua pilihan.</span></h1>
+            <p>Bandingkan paket umroh dari berbagai travel, lalu temukan perjalanan yang paling pas untuk Anda dan keluarga.</p>
+            <div class="hero-proof">
+              <div class="proof-avatars" aria-hidden="true"><span>م</span><span>ا</span><span>✦</span></div>
+              <div><strong>Lebih mudah memilih</strong><small>tanggal, penerbangan, dan hotel dalam satu tempat</small></div>
+            </div>
+          </div>
+
+          <div class="hero-art" aria-label="Ilustrasi perjalanan menuju Makkah" role="img">
+            <div class="art-orbit orbit-one"></div>
+            <div class="art-orbit orbit-two"></div>
+            <div class="art-label art-label-top"><span class="label-star">✳</span><span>PERJALANAN YANG BERARTI</span></div>
+            <svg class="kaaba-art" viewBox="0 0 520 340" fill="none" aria-hidden="true">
+              <defs>
+                <linearGradient id="artSky" x1="260" y1="0" x2="260" y2="340" gradientUnits="userSpaceOnUse"><stop stop-color="#175D51" /><stop offset="1" stop-color="#062F2A" /></linearGradient>
+                <linearGradient id="artGlow" x1="260" y1="35" x2="260" y2="280" gradientUnits="userSpaceOnUse"><stop stop-color="#D5E9A3" stop-opacity=".32" /><stop offset="1" stop-color="#89B994" stop-opacity="0" /></linearGradient>
+                <linearGradient id="cubeSide" x1="213" y1="174" x2="334" y2="255" gradientUnits="userSpaceOnUse"><stop stop-color="#202B27" /><stop offset="1" stop-color="#0A1715" /></linearGradient>
+                <linearGradient id="cubeFront" x1="161" y1="171" x2="270" y2="261" gradientUnits="userSpaceOnUse"><stop stop-color="#17211E" /><stop offset="1" stop-color="#0B1412" /></linearGradient>
+                <filter id="softShadow" x="119" y="150" width="261" height="173" color-interpolation-filters="sRGB" filterUnits="userSpaceOnUse"><feGaussianBlur stdDeviation="13" /></filter>
+              </defs>
+              <rect width="520" height="340" rx="26" fill="url(#artSky)" />
+              <circle cx="263" cy="145" r="116" fill="url(#artGlow)" />
+              <circle cx="396" cy="62" r="1.4" fill="#E3EFC8" opacity=".84"/><circle cx="349" cy="94" r="1.2" fill="#E3EFC8" opacity=".65"/><circle cx="122" cy="69" r="1.2" fill="#E3EFC8" opacity=".58"/><circle cx="165" cy="116" r="1.4" fill="#E3EFC8" opacity=".72"/><circle cx="450" cy="133" r="1.1" fill="#E3EFC8" opacity=".5"/><circle cx="87" cy="155" r="1.1" fill="#E3EFC8" opacity=".7"/>
+              <path d="M194 263V165c0-37 29.4-67 66-67s66 30 66 67v98" stroke="#9BBE91" stroke-opacity=".35" stroke-width="2" />
+              <path d="M210 263V168c0-28 22.4-51 50-51s50 23 50 51v95" stroke="#D1E5B0" stroke-opacity=".2" stroke-width="1.2" />
+              <path d="M248 92V59l12-18 12 18v33M255 55h10M256 46h8" stroke="#C7DD9F" stroke-opacity=".58" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
+              <path d="M177 263v-59c0-14-11-25-25-25s-25 11-25 25v59M393 263v-59c0-14-11-25-25-25s-25 11-25 25v59" stroke="#83A98B" stroke-opacity=".42" stroke-width="2" />
+              <path d="M0 254c74-14 142-17 260-15 100 2 180 8 260 22v79H0v-86Z" fill="#123A34" opacity=".8" />
+              <ellipse cx="252" cy="276" rx="122" ry="28" fill="#061D1A" opacity=".72" filter="url(#softShadow)" />
+              <path d="m160 177 56-24 118 25-58 27-116-28Z" fill="#27332E" />
+              <path d="m160 177 116 28v67l-116-28v-67Z" fill="url(#cubeFront)" />
+              <path d="m276 205 58-27v66l-58 28v-67Z" fill="url(#cubeSide)" />
+              <path d="m160 187 116 28 58-27" stroke="#C6A969" stroke-width="8" />
+              <path d="m160 188 116 28 58-28" stroke="#F2D89A" stroke-opacity=".75" stroke-width="1.4" />
+              <path d="M198 199v62M205 200v63M212 202v63M219 204v63M226 206v63M233 208v63M240 210v63M247 212v63M254 214v63" stroke="#536A59" stroke-opacity=".32" stroke-width=".75" />
+              <path d="M289 220v55M297 217v55M305 214v55M313 210v55" stroke="#506257" stroke-opacity=".3" stroke-width=".75" />
+              <path d="M260 225v34h12v-31" fill="#9B7A45" stroke="#E1C581" stroke-width="1.2" />
+              <circle cx="265" cy="241" r="1.1" fill="#F4D996" />
+              <path d="M53 295c49-13 94-15 152-11M359 286c38-2 73 1 109 11" stroke="#8CB28B" stroke-opacity=".28" stroke-width="1" />
+            </svg>
+            <div class="art-label art-label-bottom"><span class="art-route-icon" aria-hidden="true">⌁</span><span>INDONESIA <i>→</i> MAKKAH</span><strong>قلبٌ مطمئنّ</strong></div>
+            <div class="art-float-card"><span class="float-icon">✦</span><span><strong>Perjalanan lebih pasti</strong><small>Pilih sesuai kebutuhan Anda</small></span><span class="float-arrow">↗</span></div>
+          </div>
+        </section>
+
+        <section class="search-section" id="search-section" aria-labelledby="search-title">
+          <div class="section-heading">
+            <div>
+              <div class="section-kicker">MULAI DARI SINI</div>
+              <h2 id="search-title">Rencanakan perjalanan Anda</h2>
+              <p>Atur preferensi, lalu bandingkan paket yang tersedia.</p>
+            </div>
+            <div class="private-data-note"><span class="lock-icon" aria-hidden="true">⌑</span> Tanpa biaya, bebas membandingkan</div>
+          </div>
+
+          <div class="search-card">
+            <div class="filters-grid">
+              <div class="field dropdown-field date-field" id="date-field">
+                <label for="date-trigger">Tanggal Berangkat <span class="required-star">*</span></label>
+                <button class="select-trigger date-trigger" id="date-trigger" type="button" data-dropdown-trigger="date" aria-expanded="false" aria-controls="date-popover">
+                  <span class="trigger-icon calendar-icon" aria-hidden="true">
+                    <svg viewBox="0 0 20 20"><rect x="3" y="4.5" width="14" height="12" rx="2"/><path d="M6.5 2.8v3.4M13.5 2.8v3.4M3 8h14"/></svg>
+                  </span>
+                  <span class="trigger-copy"><strong id="date-summary">Pilih rentang keberangkatan</strong><small id="date-subtitle">Tanggal mulai paket tersedia</small></span>
+                  <span class="trigger-chevron" aria-hidden="true">⌄</span>
+                </button>
+                <div class="popover date-popover" id="date-popover" data-popover="date" hidden></div>
+                <small class="field-error" id="date-error">Pilih tanggal mulai dan akhir keberangkatan.</small>
+              </div>
+
+              <div class="field dropdown-field" id="duration-field">
+                <label for="duration-trigger">Durasi Program <span class="required-star">*</span></label>
+                <button class="select-trigger" id="duration-trigger" type="button" data-dropdown-trigger="duration" aria-expanded="false" aria-controls="duration-popover">
+                  <span class="trigger-icon duration-icon" aria-hidden="true"><svg viewBox="0 0 20 20"><circle cx="10" cy="10" r="7"/><path d="M10 5.5V10l3.1 1.8"/></svg></span>
+                  <span class="trigger-copy"><strong id="duration-summary">Pilih durasi program</strong><small id="duration-subtitle">Pilih satu atau beberapa durasi</small></span>
+                  <span class="trigger-chevron" aria-hidden="true">⌄</span>
+                </button>
+                <div class="popover" id="duration-popover" data-popover="duration" hidden>
+                  <div class="popover-header"><div><strong>Durasi Program</strong><small>Pilih satu atau beberapa kategori</small></div><button class="popover-close" type="button" data-close-dropdown aria-label="Tutup">×</button></div>
+                  <label class="popover-search"><svg viewBox="0 0 20 20" aria-hidden="true"><circle cx="8.5" cy="8.5" r="5.5"/><path d="m13 13 4 4"/></svg><input type="search" placeholder="Cari durasi" data-search="duration" autocomplete="off" /></label>
+                  <div class="option-list" id="duration-options"></div>
+                  <div class="popover-footnote">Durasi dihitung sejak keberangkatan hingga kepulangan.</div>
+                </div>
+                <small class="field-error" id="duration-error">Pilih setidaknya satu durasi program.</small>
+              </div>
+
+              <div class="field dropdown-field" id="flight-field">
+                <label for="flight-trigger">Tipe Penerbangan</label>
+                <button class="select-trigger" id="flight-trigger" type="button" data-dropdown-trigger="flight" aria-expanded="false" aria-controls="flight-popover">
+                  <span class="trigger-icon plane-icon" aria-hidden="true"><svg viewBox="0 0 20 20"><path d="m3 11 6.2-1.4L8.5 4.5c-.1-.7.7-1 1.1-.5l3.2 4.7 3.3-.7c.8-.2 1.4.2 1.6.8.1.6-.3 1.2-1 1.4l-3.2 1.1-1.1 5.3c-.1.6-.9.8-1.2.2l-2-4.5-4.7 1.6c-.8.3-1.5-.1-1.7-.8-.1-.6.1-1.8.2-2.1Z"/></svg></span>
+                  <span class="trigger-copy"><strong id="flight-summary">Semua tipe penerbangan</strong><small id="flight-subtitle">Langsung &amp; transit</small></span>
+                  <span class="trigger-chevron" aria-hidden="true">⌄</span>
+                </button>
+                <div class="popover flight-popover" id="flight-popover" data-popover="flight" hidden>
+                  <div class="popover-header"><div><strong>Tipe Penerbangan</strong><small>Hilangkan tipe yang tidak Anda inginkan</small></div><button class="popover-close" type="button" data-close-dropdown aria-label="Tutup">×</button></div>
+                  <label class="popover-search"><svg viewBox="0 0 20 20" aria-hidden="true"><circle cx="8.5" cy="8.5" r="5.5"/><path d="m13 13 4 4"/></svg><input type="search" placeholder="Cari tipe penerbangan" data-search="flight" autocomplete="off" /></label>
+                  <div class="flight-tree" id="flight-tree-main"></div>
+                  <div class="popover-footnote">Subpilihan tersimpan saat kategori induk dinonaktifkan.</div>
+                </div>
+              </div>
+
+              <div class="field dropdown-field" id="airport-field">
+                <label for="airport-trigger">Bandara Berangkat</label>
+                <button class="select-trigger" id="airport-trigger" type="button" data-dropdown-trigger="airport" aria-expanded="false" aria-controls="airport-popover">
+                  <span class="trigger-icon airport-icon" aria-hidden="true"><svg viewBox="0 0 20 20"><path d="m2.5 11.1 6.1-.5 4.2-6.2c.4-.6 1.2-.7 1.7-.3.4.3.5.8.3 1.3l-2.5 5 4.2-.3c.9-.1 1.5.6 1.2 1.4-.1.3-.4.6-.8.7l-5.1 1-2 3c-.3.4-.9.6-1.3.3-.4-.2-.5-.7-.4-1.1l.6-2-5.7-.3c-.6 0-.9-.6-.5-1.1Z"/></svg></span>
+                  <span class="trigger-copy"><strong id="airport-summary">Semua bandara Indonesia</strong><small id="airport-subtitle">Pilih satu atau beberapa bandara</small></span>
+                  <span class="trigger-chevron" aria-hidden="true">⌄</span>
+                </button>
+                <div class="popover" id="airport-popover" data-popover="airport" hidden>
+                  <div class="popover-header"><div><strong>Bandara Berangkat</strong><small>Bandara internasional di Indonesia</small></div><button class="popover-close" type="button" data-close-dropdown aria-label="Tutup">×</button></div>
+                  <label class="popover-search"><svg viewBox="0 0 20 20" aria-hidden="true"><circle cx="8.5" cy="8.5" r="5.5"/><path d="m13 13 4 4"/></svg><input type="search" placeholder="Cari kota, nama, atau kode IATA" data-search="airport" autocomplete="off" /></label>
+                  <div class="option-list airport-option-list" id="airport-options"></div>
+                  <div class="popover-footnote">Tanpa pilihan, paket dari semua bandara akan ditampilkan.</div>
+                </div>
+              </div>
+
+              <div class="field dropdown-field" id="airline-field">
+                <label for="airline-trigger">Maskapai Pesawat</label>
+                <button class="select-trigger" id="airline-trigger" type="button" data-dropdown-trigger="airline" aria-expanded="false" aria-controls="airline-popover">
+                  <span class="trigger-icon airline-icon" aria-hidden="true"><svg viewBox="0 0 20 20"><path d="M3 13.5 9.8 11 8.3 4.6c-.1-.6.6-1 1-.5l3.2 5.2 3.1-1.1c.6-.2 1.2.1 1.3.7.1.5-.1.9-.6 1.2l-3.3 1.8-1.2 4.1c-.2.5-.9.7-1.2.2L8.5 13l-4.7 1.7c-.8.3-1.4-.3-1.1-1.2.1 0 .2-.1.3 0Z"/></svg></span>
+                  <span class="trigger-copy"><strong id="airline-summary">Semua maskapai</strong><small id="airline-subtitle">Pilih maskapai favorit</small></span>
+                  <span class="trigger-chevron" aria-hidden="true">⌄</span>
+                </button>
+                <div class="popover" id="airline-popover" data-popover="airline" hidden>
+                  <div class="popover-header"><div><strong>Maskapai Pesawat</strong><small>Pilih satu atau beberapa maskapai</small></div><button class="popover-close" type="button" data-close-dropdown aria-label="Tutup">×</button></div>
+                  <label class="popover-search"><svg viewBox="0 0 20 20" aria-hidden="true"><circle cx="8.5" cy="8.5" r="5.5"/><path d="m13 13 4 4"/></svg><input type="search" placeholder="Cari nama maskapai" data-search="airline" autocomplete="off" /></label>
+                  <div class="option-list airline-option-list" id="airline-options"></div>
+                  <div class="popover-footnote">Tanpa pilihan, semua maskapai tersedia akan ditampilkan.</div>
+                </div>
+              </div>
+            </div>
+
+            <div class="hotel-accordion" id="hotel-accordion">
+              <button class="accordion-toggle" id="hotel-accordion-toggle" type="button" aria-expanded="false" aria-controls="hotel-accordion-content">
+                <span class="accordion-icon" aria-hidden="true"><svg viewBox="0 0 20 20"><path d="M3 16.5V7.8l7-4.3 7 4.3v8.7M2 16.5h16M6 16.5v-5h8v5M6.5 8.5h.01M10 8.5h.01M13.5 8.5h.01"/></svg></span>
+                <span class="accordion-title"><strong>Preferensi hotel</strong><small>Atur bintang, jarak ke masjid, dan hotel pilihan</small></span>
+                <span class="accordion-badge">MAKKAH &amp; MADINAH</span>
+                <span class="accordion-chevron" aria-hidden="true">⌄</span>
+              </button>
+              <div class="hotel-accordion-content" id="hotel-accordion-content" hidden>
+                <div class="hotel-panels" id="hotel-panels"></div>
+              </div>
+            </div>
+
+            <div class="search-card-footer">
+              <div class="search-hint" id="search-hint"><span class="hint-check" aria-hidden="true">✓</span> Pilih tanggal dan durasi untuk menemukan paket yang cocok.</div>
+              <div class="search-actions">
+                <button class="text-button" type="button" id="reset-all">Atur ulang</button>
+                <button class="primary-button search-button" type="button" id="search-button"><span>Cari paket umroh</span><svg viewBox="0 0 20 20" aria-hidden="true"><path d="M3.5 10h12M10 4.5l5.5 5.5-5.5 5.5"/></svg></button>
+              </div>
+            </div>
+          </div>
+        </section>
+
+        <section class="results-section" id="results-section" hidden aria-labelledby="results-title">
+          <div class="results-summary-bar">
+            <div class="results-summary-icon" aria-hidden="true">✦</div>
+            <div class="results-summary-copy"><span class="summary-label">PENCARIAN ANDA</span><strong id="result-summary-line">—</strong></div>
+            <button class="outline-button edit-search-button" type="button" data-edit-search><svg viewBox="0 0 20 20" aria-hidden="true"><path d="m13.8 3.2 3 3-9.5 9.5-3.8.8.8-3.8 9.5-9.5ZM12 5l3 3"/></svg>Ubah pencarian</button>
+          </div>
+
+          <div class="results-layout">
+            <aside class="results-sidebar" id="results-sidebar" aria-label="Navigasi dan filter paket"></aside>
+            <div class="results-main">
+              <div class="results-heading-row">
+                <div>
+                  <div class="section-kicker">PILIHAN UNTUK PERJALANAN ANDA</div>
+                  <h2 id="results-title">Paket umroh yang cocok</h2>
+                  <p id="results-subtitle">Bandingkan detail dan pilih dengan tenang.</p>
+                </div>
+                <label class="sort-control"><span>Urutkan</span><select id="sort-select" aria-label="Urutkan paket"><option value="relevance">Paling relevan</option><option value="price">Harga terendah</option><option value="hotel">Hotel terbaik</option></select></label>
+              </div>
+              <div class="active-filter-chips" id="active-filter-chips"></div>
+              <div class="package-list" id="package-list"></div>
+              <div class="results-note"><span aria-hidden="true">ⓘ</span> Harga dan ketersediaan di halaman ini adalah data simulasi untuk demonstrasi UmrohPas.</div>
+            </div>
+          </div>
+        </section>
+
+        <section class="how-section" id="cara-kerja" aria-labelledby="how-title">
+          <div class="how-heading"><div class="section-kicker">PILIH DENGAN LEBIH YAKIN</div><h2 id="how-title">Perjalanan Anda, cara Anda.</h2><p>Semua hal penting terlihat di depan. Tidak perlu membuka tab satu per satu.</p></div>
+          <div class="how-steps">
+            <article class="how-step"><span class="step-number">01</span><span class="step-icon date-step-icon" aria-hidden="true">▦</span><h3>Tentukan yang penting</h3><p>Pilih rentang tanggal, durasi, bandara, penerbangan, dan hotel pilihan.</p></article>
+            <article class="how-step"><span class="step-number">02</span><span class="step-icon compare-step-icon" aria-hidden="true">⇄</span><h3>Bandingkan berdampingan</h3><p>Lihat harga, maskapai, hotel, serta detail paket dari berbagai agen.</p></article>
+            <article class="how-step"><span class="step-number">03</span><span class="step-icon journey-step-icon" aria-hidden="true">✧</span><h3>Pilih dengan tenang</h3><p>Temukan perjalanan yang sesuai dengan kebutuhan dan anggaran Anda.</p></article>
+          </div>
+        </section>
+      </div>
+    </main>
+
+    <footer class="site-footer" id="footer">
+      <div class="page-container footer-content">
+        <a class="brand footer-brand" href="#top" aria-label="UmrohPas, kembali ke atas">
+          <span class="brand-symbol" aria-hidden="true"><svg viewBox="0 0 42 42" fill="none"><path d="M21 4.5c-8.55 0-15.5 6.94-15.5 15.5S12.45 35.5 21 35.5c3.1 0 5.98-.91 8.4-2.48A12.72 12.72 0 0 1 14.7 14.4 12.68 12.68 0 0 1 24.8 7.6 15.4 15.4 0 0 0 21 4.5Z" fill="currentColor"/><path d="m30.3 7 .9 2.63 2.63.9-2.63.9-.9 2.63-.9-2.63-2.63-.9 2.63-.9.9-2.63Z" fill="#C5E879"/><path d="M20.8 21.3h12.6v11.4H20.8V21.3Z" fill="#F6F7F3" fill-opacity=".2" stroke="currentColor" stroke-width="1.4"/><path d="M20.8 24.3h12.6M26.8 21.3v11.4" stroke="currentColor" stroke-width="1.1"/></svg></span>
+          <span class="brand-wordmark">umroh<span>pas</span><small>MARKETPLACE PERJALANAN</small></span>
+        </a>
+        <p>Lebih banyak pilihan untuk perjalanan yang lebih bermakna.</p>
+        <div class="footer-bottom"><span>© 2026 UmrohPas · MVP demo</span><span>Harga, agen, dan ketersediaan merupakan data simulasi.</span><a href="#top">Kembali ke atas ↑</a></div>
+      </div>
+    </footer>
+
+    <div class="compare-bar" id="compare-bar" hidden>
+      <div class="compare-bar-info"><span class="compare-icon" aria-hidden="true">⇄</span><span><strong id="compare-count">0 paket dipilih</strong><small>Pilih hingga 3 paket untuk dibandingkan</small></span></div>
+      <div class="compare-bar-actions"><button type="button" class="text-button compare-clear" id="compare-clear">Hapus pilihan</button><button class="primary-button compare-submit" id="compare-submit" type="button" disabled>Bandingkan paket</button></div>
+    </div>
+
+    <div class="modal-layer" id="modal-layer" hidden>
+      <div class="modal-backdrop" data-modal-close></div>
+      <section class="modal-dialog" id="modal-dialog" role="dialog" aria-modal="true" aria-labelledby="modal-title"></section>
+    </div>
+
+    <div class="toast" id="toast" role="status" aria-live="polite"></div>
+    <script src="./app.js" defer></script>
+  </body>
+</html>
